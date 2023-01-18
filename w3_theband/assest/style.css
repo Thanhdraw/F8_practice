@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* html{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+#main{
+
+}
+#hearder{
+    position: fixed;
+    height: 46px;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a{
+    color: #fff;
+
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav > li:hover > a{
+    background-color: #ccc; 
+    color: #000;
+}
+#nav .subnav{
+    display: none;  
+    position: absolute;
+    top: 100%;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+  
+}
+/* qua phan subnav */
+/* hover to appear */
+#nav >li:hover .subnav{
+    
+    display: block;
+}
+#nav .subnav a{
+    display: block;
+     color: #000;
+}
+#nav .nav-arrow-down{
+    font-size: 16px;
+}
+#nav .subnav li{
+    display: block;
+   
+}
+#nav .subnav >li > a:hover {
+    
+    background-color: #ccc;
+}
+/* css icon search header */
+#hearder .search_btn{
+    color: #fff;
+    float: right;
+    line-height: 46px;  
+    padding: 0 23px;
+}
+#hearder .search_btn:hover{
+    cursor: pointer;
+    background-color: #f44336;
+}
+#header .search_btn .search-icon{
+    font-size: 20px;
+}
+/* end icon search css */
+
+
+#slider{
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(./img/z4041926874019_8f25b1af5cc1e4f4aadd034b6652ce34.jpg) top center / cover;
+    background-position: center;
+    position: relative;
+}
+#slider .text-content{
+    position:absolute;
+    bottom: 47px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#slider .text-heading{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+#slider .text-decription{
+    font-size: 15px;
+}
+/* content  */
+#content{
+    height: 2000px;
+    background-color: #fff; 
+    
+    text-align: center;
+    /* margin: 0 269px; */
+}
+#content .content-section{
+    width: 800px;
+    padding: 25px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content .section-heading{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+#content .section-sub-heading{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 15px;
+    font-style: italic;
+}
+#content .about-text{
+    text-align: justify;
+    word-wrap: break-word;
+    line-height: 1.5;
+    
+}
+#content .member-list{
+    margin-top: 48px;
+    padding-bottom: 64px;
+    /* margin-bottom: 48px; */
+    overflow: hidden;
+    /* cách 2: là ta cho 
+    1 thẻ <div class = "clear"
+    và qua css : .clear{
+        clear=both
+    } */
+}
+#content .member-item{
+    float: left;
+    max-width: calc(100% / 3);
+    text-align: center;
+}
+.member-item .member-name{
+    margin: 15px 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.member-item .member-avartar{
+    max-width: 90%;
+    border-radius: 50%;
+    background-position: center;
+}
+#content .tealeaves-icon{
+    margin-bottom: 10px;
+}
+
+
+
+/* end content */
+#footer{
+
+}
