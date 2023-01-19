@@ -1,3 +1,8 @@
+:root{
+    --black-color:#000;
+    --text-color:#fff;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -125,6 +130,8 @@
     padding: 25px 16px;
     margin-left: auto;
     margin-right: auto;
+    
+    
 }
 #content .section-heading{
     text-align: center;
@@ -175,8 +182,94 @@
 #content .tealeaves-icon{
     margin-bottom: 10px;
 }
+/* tour section */
+#tour-section{
+    background-color: var(--black-color);
+    color: var(--text-color);
+}
+
+#tour-section .ticket-time{
+    background-color: var(--text-color);
+    list-style-type: none;
+    color: #757575;
+    text-align: left;
+}
+.ticket-time li{
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    line-height: 1.5;
+}
+.sold-out{
+    background-color: #f44336;
+    margin-left: 15px;
+    padding: 0 8px;
+    color: var(--text-color);
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    display: inline-block;
+}
+.ticket-number{
+    color: var(--text-color);
+    background-color: #000;
+    float: right;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+.place-list{
+    color: var(--black-color);
+    margin: 32px -8px 0;
+}
+.place-item{
+    float: left;
+    width: 33.33%;
+    padding: 0 8px;
+    text-align: left;
+    
+}
+.clear{
+    content: "";
+    clear: both;
+}   
+.img{
+    width: 100%;
+    display: block;
+}
+.img:hover{
+    opacity: 0.6;
+}
+.place-body{
+    padding: 16px;
+    background-color: var(--text-color);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}   
+.place-heading{
+   font-size: 15px;
+   font-weight: 600;
+}
+.place-time{
+    margin-top: 15px;
+    color: #757575;
 
 
+}
+.place-decription{
+    margin-top: 15px;
+
+}
+.buy-btn{
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: rgb(56, 36, 156);
+    color: var(--text-color);
+    display: inline-block;
+}
+.buy-btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 /* end content */
 #footer{
