@@ -44,7 +44,7 @@
         <i class="search-icon fa-solid fa-magnifying-glass"></i>
         </div>
        <!-- end: search_icon -->
-</ul>
+        </ul>
     </div>
     <div id="slider">
         <div class="text-content">
@@ -62,7 +62,7 @@
                 We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div class="member-list">
+            <div class="row member-list">
                 <div class="member-item">
                     <p class="member-name">Yến Oanh</p>
                     <img src="./assest/img/YO.jpg" alt="Name" class="member-avartar">
@@ -104,8 +104,8 @@
                         </ul>
                     </div>
                     <!-- place ticket -->
-                    <div class="place-list">
-                        <div class="place-item">
+                    <div class="row place-list">
+                        <div class="col col-third">
                             <img src="./assest/img/YO.jpg" alt="" class="img">
                             <div class="place-body">
                                 <h3 class="place-heading">Nguyen Hoang Yen Oanh</h3>
@@ -115,7 +115,7 @@
                                 
                             </div>
                         </div>
-                        <div class="place-item">
+                        <div class="col col-third">
                             <img src="./assest/img/THAO.jpg" alt="" class="img">
                             <div class="place-body">
                                 <h3 class="place-heading">Nguyen Hoang Yen Oanh</h3>
@@ -124,7 +124,7 @@
                                 <button class="buy-btn">facebook</button>
                             </div>
                         </div>
-                        <div class="place-item">
+                        <div class="col col-third">
                             <img src="./assest/img/THUY.jpg" alt="" class="img">
                             <div class="place-body">
                                 <h3 class="place-heading">Nguyen Hoang Yen Oanh</h3>
@@ -140,26 +140,51 @@
             </div>
             
        </div>
-       <div id="contact-section">
+       <!-- Begin contact -->
+       <div id="contact-section">   
             <div class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
             </div>
-            <div class="contact-us">
-                <ul class="contact-us-detail">
+            <div class="row contact-content ">
+                <ul class="col col-half contact-info">
                     <li> <i class="fa-solid fa-location-dot"></i> Chicago, US</li>
                     <li> <i class="fa-solid fa-phone"></i>Phone: +00 151515</li>
                     <li> <i class="fa-solid fa-envelope"></i>Email: mail@mail.com</li>
                 </ul>
+                <div class="col col-half contact-form">
+                    <form action="" class="action">
+                        <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" placeholder="Name" class="form-control">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" placeholder="Email" class="form-control">
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-half">
+                                <input type="text" placeholder="Message" class="form-control">
+                            </div>
+                        </div>
+
+                    </form>
+                    <input type="submit" value="SEND">
+                </div>
             </div>
-            <div class="contact-info">
-                
-            </div>
+           
+       </div>
+       <!-- END: contact-section -->
+
+       <div class="map-section">
+        <img src="./assest/img/z4041926874019_8f25b1af5cc1e4f4aadd034b6652ce34.jpg" alt="">
        </div>
     </div>
     
     <div id="footer">
+        <div class="icon-footer">
 
+        </div>
     </div>
 </body>
 </html>
