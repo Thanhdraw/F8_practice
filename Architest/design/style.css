@@ -118,12 +118,59 @@ html{
 }
 #content .about .project h3{
     padding: 16px 0;
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
     margin: 10px 0;
 }
 #content .about .project p{
     margin: 15px 0;
+    padding: 16px 0;
 }
+.list-members{
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px ;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.member-item{
+}
+.member-item img{
+    width: 100%;
+    object-fit: contain;
+}
+.about-name,
+.career,.career-details{
+    padding: 0 !important;
+    text-align: left;
+}
+.career{
+    color: #757575;
+}
+.btn-contact{
+    text-align: center;
+    padding: 0 !important;
+    background-color: #f1f1f1;
+    font-weight: 500;
+
+
+}
+.btn-contact:hover{
+    background-color: #ccc;
+
+}
+.btn-contact a{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    color: #000;
+    font-weight: 400;
+
+}
+
+
+
 #footer{
 
 }
