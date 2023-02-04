@@ -1,5 +1,36 @@
-@media only screen and (max-width:600px) {
+
+/* Mobile Devices */
+@media screen and (max-width:480px) {
+
   #header ul{
     display: none;
+  }
+  #slider .img-slider{
+    max-width: auto;
+  }
+  #slider .slogan{
+    top: 60%;
+  }
+  #slider .slogan .bold b,
+  #slider .slogan h1{
+    letter-spacing: 4px;
+
+  }
+  #slider .slogan .Architects {
+    font-size: 15px;
+    display: none ;
+  }
+  /* Content */
+  #content .project{
+    padding: 32px 16px;
+  }
+  #content .list-projects{
+    display: block;
+  }
+  #content .about .list-members{
+    display: block;
+  }
+  .contact-infomation form{
+    margin: -8px;
   }
 }
