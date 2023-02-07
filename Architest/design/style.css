@@ -55,6 +55,9 @@ html{
 
     
 }
+#slider .img-slider {
+    max-width: 100%;
+}
 
 #slider .img-slider img{
     width: 100%;
@@ -94,13 +97,14 @@ html{
 #content .list-projects{
     padding: 0 8px;
     display: grid;
-    grid-template-columns: 352px 352px 352px 352px;
-    grid-template-rows: 234px 234px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 1rem;
     row-gap: 1rem;
     justify-content: center;
 }
 #content .list-projects img{
+    display: block;
     max-width: 100%;
 }
 #content .list-projects .list-item{
